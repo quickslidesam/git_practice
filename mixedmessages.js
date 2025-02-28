@@ -10,4 +10,4 @@ function randomNumber(arr) {
     return Math.floor(Math.random() * arr.length)
 };
 
-console.log(createMessage());
+document.getElementById('message').textContent = createMessage();
